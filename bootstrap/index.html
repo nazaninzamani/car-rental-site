@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cars</title>
+    <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./libs/bootstrap/font/bootstrap-icons.css">
+    <link rel="icon" href="./libs/bootstrap/car-front-fill.svg" type="image/_icon" />
+</head>
+<body class="bg-light" style="padding-top: 60px;">
+    <div class="bg-light container-xl">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top ">
+            <div class="container-xl d-flex">
+              <a class=" navbar-brand fs-2 mx-5 py-1" href="#">Ridex</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item mx-5">
+                    <a class="nav-link active " aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item mx-5">
+                    <a class="nav-link " href="#">Explore cars</a>
+                  </li>
+                  <li class="nav-item mx-5">
+                    <a class="nav-link " href="#">About us</a>
+                  </li>
+                  <li class="nav-item mx-5">
+                    <a class="nav-link "href="#">Blog</a>
+                  </li>
+                  <li class="nav-item mx-5">
+                    <a class="nav-link"href="#"><a class="btn btn-primary rounded " href="#">Explore cars</a></a>
+                  </li>
+                  <li class="nav-item mx-5">
+                    <a class="nav-link"href="#"><a class="btn btn-primary rounded " href="#">Sign up/ sign in</a></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- search cars -->
+        <div class="intro pt-2">
+          <div class="row container position-relative">
+              <div class="col-lg-5 col-md-12 ">
+                  <span class="d-block h1 text-decoration-center mt-3 p-5 pb-1" >THE EASY WAY TO <br> TAKEOVER A LEASE</span>
+                  <span class="d-block text-decoration-center mt-1 p-5 pt-1">Live in New York, New Jerset and Connecticut!</span>
+                  <div class="bg-light shadow p-5 position-absolute bottom-30 end-50 rounded-circle d-inline d-lg-block d-none">
+                      <form action=""> 
+                          <label class="p-4 d-flex" for="">Car,Model or Brand
+                              <input class="px-3 mx-1 rounded small shadow" type="text" placeholder="What car are you looking?">
+                          </label>
+                          <label class="p-4 d-flex" for="">Max,Monthly Payment
+                              <input class="px-3 mx-1 rounded small shadow" type="text"placeholder="Add an amount in $">
+                          </label>
+                          <label class="p-4 d-flex" for="">Make Year
+                              <input class="px-3 mx-1 rounded small shadow" type="text" placeholder="Add a minimal make are year">
+                          </label> 
+                          <a class="btn rounded btn-primary p-3 rounded-circle shadow " href="#">search</a>
+                      </form>
+                  </div>
+              </div>
+              <div class="col-md-7 col-sm-12 d-md-block text-center"><img class="img-fluid rounded-pill m-2 shadow" src="./imags/hero-banner.jpg"></div>
+          </div>
+        <!-- nav cards -->
+        <div class="my-5 py-5">
+            <div class="d-flex justify-content-between container-lg">
+                <span class="display-6 px-3">Featured cars</span>
+                <a class="text-decoration-none text-dark pt-2 px-5" href="#"> View more <i class="bi bi-arrow-right"></i></a>
+            </div>
+            </div>
+        </div>
+            <!-- cards -->
+            <div class="cards mb-5">
+              <div class="row d-flex justify-content-around container-lg">
+                <div class="col-lg-3 col-md-4 col-sm-12 rounded shadow bg-light m-1 ">
+                  <img class="img-rounded img-thumbnail" src="./imags/car-1.jpg" alt="">
+                  <div class="d-block text-center">
+                    <a class="text-decoration-none text-dark fs-4 p-1 mx-2" href="">Toyota RAV4</a>
+                    <span class="border border-primary rounded fs-4 px-2 mx-4">2021</span>
+                    <div class="d-flex justify-content-between p-2">
+                      <div class="col-6">
+                          <div class="text-start m-1"><i class="bi bi-people-fill text-primary"></i> 4 People</div>
+                          <div class="text-start m-1"><i class="bi bi-speedometer2 text-primary"></i> 6.1km / 1-litre</div>
+                      </div>
+                      <div class="">
+                          <div class="text-start m-1"><i class="bi bi-lightning-charge text-primary"></i> Hybrid</div>
+                          <div class="text-start m-1"><i class="bi bi-postage-heart text-primary"></i>Automatic</div>
+                      </div>
+                  </div>
+                  <div class="d-flex justify-content-between border-top border-2 my-1 py-3 text-center">
+                    <span class="h5 p-1 m-1 text-center">$440 / month</span>
+                    <i class="bi bi-heart-fill text-danger fs-4 pe-3"></i>
+                      <a class="text-decoration-none btn btn-primary rounded text-center" href="">Rent now</a>
+                   </div>
+                </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 rounded shadow bg-light m-1">
+                  <img class="img-rounded img-thumbnail" src="./imags/car-2.jpg" alt="">
+                  <div class="d-block text-center">
+                    <a class="text-decoration-none text-dark fs-4 p-1 mx-2" href="">Toyota RAV4</a>
+                    <span class="border border-primary rounded fs-4  px-2 mx-4">2021</span>
+                    <div class="d-flex justify-content-between p-2">
+                      <div class="col-6">
+                          <div class="text-start m-1"><i class="bi bi-people-fill text-primary"></i> 4 People</div>
+                          <div class="text-start m-1"><i class="bi bi-speedometer2 text-primary"></i> 6.1km / 1-litre</div>
+                      </div>
+                      <div class="">
+                          <div class="text-start m-1"><i class="bi bi-lightning-charge text-primary"></i> Hybrid</div>
+                          <div class="text-start m-1"><i class="bi bi-postage-heart text-primary"></i>Automatic</div>
+                      </div>
+                  </div>
+                  <div class="d-flex justify-content-between border-top border-2 my-1 py-3 text-center">
+                    <span class="h5 p-1 m-1 text-center">$440 / month</span>
+                    <i class="bi bi-heart-fill text-danger fs-4 pe-3"></i>
+                      <a class="text-decoration-none btn btn-primary rounded text-center" href="">Rent now</a>
+                   </div>
+                </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 rounded shadow bg-light m-1">
+                  <img class="img-rounded img-thumbnail" src="./imags/car-3.jpg" alt="">
+                  <div class="d-block text-center">
+                    <a class="text-decoration-none text-dark fs-4 p-1 mx-2" href="">Toyota RAV4</a>
+                    <span class="border border-primary rounded fs-4  px-2 mx-4">2021</span>
+                    <div class="d-flex justify-content-between p-2">
+                      <div class="col-6">
+                          <div class="text-start m-1"><i class="bi bi-people-fill text-primary"></i> 4 People</div>
+                          <div class="text-start m-1"><i class="bi bi-speedometer2 text-primary"></i> 6.1km / 1-litre</div>
+                      </div>
+                      <div class="">
+                          <div class="text-start m-1"><i class="bi bi-lightning-charge text-primary"></i> Hybrid</div>
+                          <div class="text-start m-1"><i class="bi bi-postage-heart text-primary"></i>Automatic</div>
+                      </div>
+                  </div>
+                  <div class="d-flex justify-content-between border-top border-2 my-1 py-3 text-center">
+                    <span class="h5 p-1 m-1 text-center">$440 / month</span>
+                    <i class="bi bi-heart-fill text-danger fs-4 pe-3"></i>
+                      <a class="text-decoration-none btn btn-primary rounded text-center" href="">Rent now</a>
+                   </div>
+                </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 rounded shadow bg-light m-1">
+                  <img class="img-rounded img-thumbnail" src="./imags/car-4.jpg" alt="">
+                  <div class="d-block text-center">
+                    <a class="text-decoration-none text-dark fs-4 p-1 mx-2" href="">Toyota RAV4</a>
+                    <span class="border border-primary rounded fs-4  px-2 mx-4">2021</span>
+                    <div class="d-flex justify-content-between p-2">
+                      <div class="col-6">
+                          <div class="text-start m-1"><i class="bi bi-people-fill text-primary"></i> 4 People</div>
+                          <div class="text-start m-1"><i class="bi bi-speedometer2 text-primary"></i> 6.1km / 1-litre</div>
+                      </div>
+                      <div class="">
+                          <div class="text-start m-1"><i class="bi bi-lightning-charge text-primary"></i> Hybrid</div>
+                          <div class="text-start m-1"><i class="bi bi-postage-heart text-primary"></i>Automatic</div>
+                      </div>
+                  </div>
+                  <div class="d-flex justify-content-between border-top border-2 my-1 py-3 text-center">
+                    <span class="h5 p-1 m-1 text-center">$440 / month</span>
+                    <i class="bi bi-heart-fill text-danger fs-4 pe-3"></i>
+                      <a class="text-decoration-none btn btn-primary rounded text-center" href="">Rent now</a>
+                   </div>
+                </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 rounded shadow bg-light m-1">
+                  <img class="img-rounded img-thumbnail" src="./imags/car-5.jpg" alt="">
+                  <div class="d-block text-center">
+                    <a class="text-decoration-none text-dark fs-4 p-1 mx-2" href="">Toyota RAV4</a>
+                    <span class="border border-primary rounded fs-4  px-2 mx-4">2021</span>
+                    <div class="d-flex justify-content-between p-2">
+                      <div class="col-6">
+                          <div class="text-start m-1"><i class="bi bi-people-fill text-primary"></i> 4 People</div>
+                          <div class="text-start m-1"><i class="bi bi-speedometer2 text-primary"></i> 6.1km / 1-litre</div>
+                      </div>
+                      <div class="">
+                          <div class="text-start m-1"><i class="bi bi-lightning-charge text-primary"></i> Hybrid</div>
+                          <div class="text-start m-1"><i class="bi bi-postage-heart text-primary"></i>Automatic</div>
+                      </div>
+                  </div>
+                  <div class="d-flex justify-content-between border-top border-2 my-1 py-3 text-center">
+                    <span class="h5 p-1 m-1 text-center">$440 / month</span>
+                    <i class="bi bi-heart-fill text-danger fs-4 pe-3"></i>
+                      <a class="text-decoration-none btn btn-primary rounded text-center" href="">Rent now</a>
+                   </div>
+                </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 rounded shadow bg-light m-1">
+                  <img class="img-rounded img-thumbnail" src="./imags/car-6.jpg" alt="">
+                  <div class="d-block text-center">
+                    <a class="text-decoration-none text-dark fs-4 p-1 mx-2" href="">Toyota RAV4</a>
+                    <span class="border border-primary rounded fs-4  px-2 mx-4">2021</span>
+                    <div class="d-flex justify-content-between p-2">
+                      <div class="col-6">
+                          <div class="text-start m-1"><i class="bi bi-people-fill text-primary"></i> 4 People</div>
+                          <div class="text-start m-1"><i class="bi bi-speedometer2 text-primary"></i> 6.1km / 1-litre</div>
+                      </div>
+                      <div class="">
+                          <div class="text-start m-1"><i class="bi bi-lightning-charge text-primary"></i> Hybrid</div>
+                          <div class="text-start m-1"><i class="bi bi-postage-heart text-primary"></i>Automatic</div>
+                      </div>
+                  </div>
+                  <div class="d-flex justify-content-between border-top border-2 my-1 py-3 text-center">
+                    <span class="h5 p-1 m-1 text-center">$440 / month</span>
+                    <i class="bi bi-heart-fill text-danger fs-4 pe-3"></i>
+                      <a class="text-decoration-none btn btn-primary rounded text-center" href="">Rent now</a>
+                   </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            <!-- box -->
+            <div class="boxs my-4 py-5">
+              <div class="display-6 my-5">Get started with 4 simple steps</div>
+              <div class="row my-5 justify-content-between container-lg">
+                <div class="col-lg-3  col-sm-12 bg-white shadow-lg p-5 rounded">
+                  <i class="bi bi-person-plus h6 bg-dark px-3 py-2 my-3 rounded text-light"></i>
+                  <p class="py-3">
+                    Create a profile
+                    If you are going to use a passage of Lorem Ipsum, you need to be sure.
+                  </p>
+                  <a class="text-decoration-none text-primary" href="#">Get started</a>
+                </div>
+                <div class="col-lg-3  col-sm-12 bg-white shadow-lg p-5 rounded">
+                  <i class="bi bi-car-front-fill  h6 bg-dark px-3 py-2 my-3 rounded text-light"></i>
+                  <p class="py-3">
+                    Tell us what car you want
+                    Various versions have evolved over the years, sometimes by accident, sometimes on purpose
+                  </p>
+                </div>
+                <div class="col-lg-3  col-sm-12 bg-white shadow-lg p-5 rounded">
+                  <i class="bi bi-person  h6 bg-dark px-3 py-2 my-3 rounded text-light"></i>
+                  <p class="py-3">
+                    Match with seller
+                    It to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                  </p>
+                </div>
+                <div class="col-lg-3  col-sm-12 bg-white shadow-lg p-5 rounded">
+                  <i class="bi bi-credit-card-fill  h6 bg-dark px-3 py-2 my-3 rounded text-light"></i>
+                  <p class="py-3">
+                    Make a deal
+                    There are many variations of passages of Lorem available, but the majority have suffered alteration
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- sliders -->
+            <div id="carouselExampleCaptions" class="carousel slide">
+              <div class="carousel-inner w-80 p-4">
+                <div class="carousel-item active">
+                  <img src="./imags/blog-1.jpg" class="d-block w-100 p-5">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="btn btn-primary rounded">Company</h5>
+                    <p class="h5 pb-5"><a class="text-decoration-none text-light" href="#">Opening of new offices of the company</a></p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./imags/blog-2.jpg" class="d-block w-100 p-5">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="btn btn-primary rounded">Repair</h5>
+                    <p class="h5 pb-5"><a class="text-decoration-none text-light"href="#">What cars are most vulnerable</a></p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./imags/blog-3.jpg" class="d-block w-100 p-5">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="btn btn-primary rounded">Cars</h5>
+                    <p class="h5 pb-5"><a class="text-decoration-none text-light"href="#">Statistics showed which average age</a></p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./imags/blog-4.jpg" class="d-block w-100 p-5">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="btn btn-primary rounded">Cars</h5>
+                    <p class="h5 pb-5"><a class="text-decoration-none text-light"href="#">What´s required when renting a car?</a></p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./imags/blog-5.jpg" class="d-block w-100 p-5">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="btn btn-primary rounded">Company</h5>
+                    <p class="h5 pb-5"><a class="text-decoration-none text-light"href="#">New rules for handling our cars</a></p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+              <!-- Footer -->
+            <footer class="text-center text-lg-start bg-white text-muted shadow-lg rounded m-1 pt-3">
+              <section class="">
+              <div class="container text-center text-md-start mt-5">
+              <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <p class="text-uppercase fw-bold mb-4 fs-3"><i class="fas fa-gem  text-secondary"></i>Ridex</p>
+              <p>Search for cheap rental cars in New York. With a diverse fleet of 19,000 vehicles, Waydex offers its consumers an attractive and fun selection.</p>
+              </div>
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <h6 class="fw-bold mb-4">Company</h6>
+                  <p><a href="#!" class="text-reset text-decoration-none">About us</a></p>
+                  <p><a href="#!" class="text-reset text-decoration-none">Pricing planet</a></p>
+                  <p><a href="#!" class="text-reset text-decoration-none">Our blog</a></p>
+                  <p><a href="#!" class="text-reset text-decoration-none">Contact</a></p>
+              </div>
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <h6 class="text-uppercase fw-bold mb-4">Support</h6>
+                  <p><a href="#!" class="text-reset text-decoration-none">Help center</a></p>
+                  <p><a href="#!" class="text-reset text-decoration-none">Asc a question</a></p>
+                  <p><a href="#!" class="text-reset text-decoration-none">privacy policy</a></p>
+                  <p><a href="#!" class="text-reset text-decoration-none">Terms & condition</a></p>
+              </div>
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <h6 class="fw-bold mb-4">Neighborhoods in New York</h6>
+                  <p><a href="#!" class="text-reset text-decoration-none">Manhattan</a></p>
+                  <p><a href="#!" class="text-reset text-decoration-none">Central New York City</a></p>
+                  <p><a href="#!" class="text-reset text-decoration-none">Upper East side</a></p>
+                  <p><a href="#!" class="text-reset text-decoration-none">Queens</a></p>
+              </div>
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <p><a href="#!" class="text-reset text-decoration-none">Theater District</a></p>
+                  <p><a href="#!" class="text-reset text-decoration-none">Midtown</a></p>
+                  <p><a href="#!" class="text-reset text-decoration-none">SoHo</a></p>
+                  <p><a href="#!" class="text-reset text-decoration-none">chelsea</a></p>
+              </div>
+            </div>
+            </section>
+           <!-- links -->
+            <div class="d-flex justify-content-between container-lg p-5 bg-light shadow-lg" style="background-color: rgba(0, 0, 0, 0.025);">
+              <div class="">© 2022 codewithsadee. All Rights Reserved</div>
+                <div class="">
+                  <a href="#"><i class="fs-4 my-5 p-2 bi bi-facebook"></i></a>
+                  <a href="#"><i class="fs-4 my-5 p-2 bi bi-instagram"></i></a>
+                  <a href="#"><i class="fs-4 my-5 p-2 bi bi-twitter"></i></a>
+                  <a href="#"><i class="fs-4 my-5 p-2 bi bi-linkedin"></i></a>
+                  <a href="#"><i class="fs-4 my-5 p-2 bi bi-skype"></i></a>
+                  <a href="#"><i class="fs-4 my-5 p-2 bi bi-envelope"></i></a>
+                </div>
+              </div>
+            </div>
+          
+    </div>
+    <script src="./libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
